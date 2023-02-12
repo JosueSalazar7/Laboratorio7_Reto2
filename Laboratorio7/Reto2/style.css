@@ -1,31 +1,37 @@
 .contenedor{
-    border: 5px solid black;
     display: grid;
     gap: 50px;
     grid-template-columns: 150px 150px;
     grid-template-rows: 150px 150px;
-    grid-auto-flow: column;
     justify-content: center;
     align-content: center;
     place-content: center;
-    grid-row: inherit;
     height: 900px;
     
     
 }
+.contenedor2{
+    height: 330px;
+    width: 330px;
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 150px 150px;
+    grid-auto-flow: column;
+    background-color: #3D6C0F;
+}
 .item{
-    border: 5px solid green;
+    
     position: relative;
     background-color: greenyellow;
 }
 .item span{
-    position: absolute;
+    background-color: #67B822;
+    color: white;
     bottom: 0;
     right: 0;
-    padding: 20px 20px;
+    padding: 25px 20px;
     font-size: 4rem;
     font-weight: bold;
-    color: white;
-    background-color: green;
-    
+    position: absolute;
 }
